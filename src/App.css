@@ -1,0 +1,14 @@
+*{
+  font-family: 'Red Rose', cursive;
+}
+.app{
+  width: 1440px;
+  height: 2890px;
+
+  /* white */
+  
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
