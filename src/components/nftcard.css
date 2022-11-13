@@ -1,0 +1,68 @@
+.card{
+    box-sizing: border-box;
+width: 292px;
+height: 372px;
+
+
+/* White lin */
+
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+/* FADE */
+
+border: 1px solid #D7D7D7;
+border-radius: 15px;
+
+display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center; 
+}
+.nft-img{
+    margin-top: 10px;
+
+    box-sizing: border-box;
+width: 260px;
+height: 265px;
+
+/* FADE */
+
+border-radius: 15px;
+
+}
+
+
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin: 0px;
+
+}
+.detail{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height, or 110% */
+
+
+/* text black */
+
+color: #434343
+}
+.top-info , .middle-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: -10px 0px;
+
+
+}
+.stars{
+    align-self: flex-start;
+    margin-top: 9px;
+}

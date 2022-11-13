@@ -1,0 +1,36 @@
+.adventure{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+width: 1440px;
+height: 963px;
+;
+
+/* white */
+
+background: #FFFFFF;
+
+}
+.nft-images{
+ display: grid;
+ grid-template-columns:1fr 1fr 1fr 1fr;
+ gap: 24px;
+}
+
+.header-note{
+width: 817px;
+height: 60px;
+left: 313px;
+top: 39px;
+
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+
+color: #000000;
+
+}

@@ -7,6 +7,7 @@ import Partners from './components/Partners'
 import Adventure from './components/Adventure'
 import Giftcard from './components/Giftcard'
 import Footer from './components/Footer'
+
 // import BuyPage from "./BuyPage"
 
 function App() {
