@@ -1,6 +1,12 @@
 *{
   font-family: 'Red Rose', cursive;
 }
+.main-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
 .app{
   width: 1440px;
   height: 2890px;

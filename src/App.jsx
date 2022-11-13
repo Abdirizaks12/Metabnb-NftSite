@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 
 function App() {
 return(
+  <div className='main-app'>
   <div className='app'>
     <TopContent/>
     <Partners/>
@@ -19,6 +20,7 @@ return(
     <Footer/>
 
   </div>
+ </div> 
 )
 
   // return (

@@ -5,15 +5,16 @@ export default function Footer(){
   return(
       <div className="footer">
         <div className="socials">
-          <img src="./footerlogo.png"/>
-          <div>
+          <img  className="footer-logo" src="./footerlogo.png"/>
+          <div className="tags">
            <a> <img src="./fb.png"/> </a>
            <a> <img src="./insta.png"/></a>
            <a> <img src="./twt.png"/></a>
           </div>
-          <p>© 2022 Metabnb</p>
+          <p><span className="copywrite">©</span>2022 Metabnb</p>
         </div>  
 
+      <div className="footer-link">
         <div className="footer-col">
           <h1>Community</h1>
           <ul>
@@ -43,6 +44,7 @@ export default function Footer(){
             <a href="#">Contact us</a>
           </ul>
         </div> 
+      </div>  
 
       </div>
   )
