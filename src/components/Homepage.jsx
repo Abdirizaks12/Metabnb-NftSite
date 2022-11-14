@@ -30,7 +30,7 @@ return(
   //       <Route path="/" element={<BuyPage />} />
   //     </Routes>
   //   </Router>   
-  // )
+  
 }
 
 export default Homepage

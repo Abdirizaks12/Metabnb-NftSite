@@ -1,19 +1,21 @@
 import React from "react";
 import "./navbar.css"
-// import {a} from "react-router-dom"
+import Modal from "./Modal"
+import {Link} from "react-router-dom"
 
 export default function Navbar(){
+    const[openModal,setOpenModal] = React.useState(false)
     return(
     <div className="navbar">
         <img src="./logo.png"/>
         <ul className="menu">
-            <a href="#">Home</a>
-            <a href="#">Place to stay</a>
+            <Link >Home</Link>
+            <Link to="./PlaceToStay">Place to stay</Link> 
             <a href="#">NFTs</a>
             <a href="#">Community</a>
         </ul>
-        <button className="connect-btn">Connect wallet</button>  
-        
+        <button onClick={()=>setOpenModal(true)} className="connect-btn">Connect wallet</button>  
+        {openModal && <Modal closeModal={setOpenModal}/>}
    </div>
     )
 }
