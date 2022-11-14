@@ -1,0 +1,60 @@
+.places-page{
+width: 1440px;
+height: 2292px;
+padding-top: 51pxs;
+/* white */
+margin: 0 auto;
+gap: 100px;
+background: #FFFFFF;
+display: flex;
+flex-direction: column;
+
+}
+.top-content{
+    display: flex;
+    flex-direction: column;
+    gap: 137px;
+}
+
+.place-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 23px;
+width: 1050px;
+border-radius: 0px;
+margin-left: -180px;
+
+
+}
+.place-nav>a{
+    font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* text black */
+
+color: #434343;
+}
+.place-nav>a:hover{
+    color: blue;
+}
+
+.location-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 48px;
+width: 161px;
+border-radius: 8px;
+background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+border: 1px solid #B4B4B4;
+
+}

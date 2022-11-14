@@ -1,37 +1,9 @@
-import './App.css'
-import Navbar from './components/Navbar'
-// import { BrowserRouter as Router, Route,  Routes}  from "react-router-dom";
-import Homepage from "./components/Homepage"
-import TopContent from './components/TopContent'
-import Partners from './components/Partners'
-import Adventure from './components/Adventure'
-import Giftcard from './components/Giftcard'
-import Footer from './components/Footer'
+import React from "react";
+import Homepage from "./components/Homepage";
+import PlaceToStay from "./components/PlaceToStay";
 
-// import BuyPage from "./BuyPage"
-
-function App() {
-return(
-  <div className='main-app'>
-  <div className='app'>
-    <TopContent/>
-    <Partners/>
-    <Adventure/>
-    <Giftcard/>
-    <Footer/>
-
-  </div>
- </div> 
-)
-
-  // return (
-  //   <Router>
-  //     <Routes>
-  //       <Route exact path="/" element={<Homepage />} />
-  //       <Route path="/" element={<BuyPage />} />
-  //     </Routes>
-  //   </Router>   
-  // )
+export default function App(){
+    return(
+    <PlaceToStay/>
+    )
 }
-
-export default App
