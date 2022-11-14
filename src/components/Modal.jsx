@@ -3,8 +3,8 @@ import "./modal.css"
 
 export default function Modal({closeModal}){
     return(
-        <div className="modal">
-            
+        <div className="modal-wrap">
+            <div className="modal-content">
                 <div className="top-modal">
                     <p>Connect Wallet</p>
                     <a onClick={()=>closeModal(false)} href="#" className="cancel"><img src="./x.svg"/></a>
@@ -22,7 +22,7 @@ export default function Modal({closeModal}){
                         <img src="./arrow.svg"/>
                     </a>
                 </div>
-       
+            </div>
         </div>
     )
 }

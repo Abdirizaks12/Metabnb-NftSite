@@ -6,6 +6,7 @@ import Partners from './Partners'
 import Adventure from './Adventure'
 import Giftcard from './Giftcard'
 import Footer from './Footer'
+import Modal from './Modal'
 
 // import BuyPage from "./BuyPage"
 
@@ -18,7 +19,7 @@ return(
     <Adventure/>
     <Giftcard/>
     <Footer/>
-
+   
   </div>
  </div> 
 )
