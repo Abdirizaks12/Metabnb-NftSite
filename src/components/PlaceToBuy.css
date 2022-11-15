@@ -58,3 +58,14 @@ background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
 border: 1px solid #B4B4B4;
 
 }
+
+@media (max-width: 700px){
+    .places-page{
+      margin: 0 auto;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}

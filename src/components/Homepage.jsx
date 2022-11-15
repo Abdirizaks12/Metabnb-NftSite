@@ -6,9 +6,8 @@ import Partners from './Partners'
 import Adventure from './Adventure'
 import Giftcard from './Giftcard'
 import Footer from './Footer'
-import Modal from './Modal'
 
-// import BuyPage from "./BuyPage"
+
 
 function Homepage() {
 return(
@@ -24,13 +23,7 @@ return(
  </div> 
 )
 
-  // return (
-  //   <Router>
-  //     <Routes>
-  //       <Route exact path="/" element={<Homepage />} />
-  //       <Route path="/" element={<BuyPage />} />
-  //     </Routes>
-  //   </Router>   
+
   
 }
 

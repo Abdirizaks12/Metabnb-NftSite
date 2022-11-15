@@ -28,7 +28,7 @@ export default function Navbar(){
     <div className="navbar">
         <img src="./logo.png"/>
        <nav> 
-        { (toggleMenu || screenWidth > 1440) && (<ul className="menu">
+        { (toggleMenu || screenWidth > 700) && (<ul className="menu">
             <Link >Home</Link>
             <Link to="./PlaceToStay">Place to stay</Link> 
             <a href="#">NFTs</a>

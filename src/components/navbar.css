@@ -55,7 +55,7 @@ color: #FFFFFF;
  background:blueviolet;
  width:50px;
  height:100;
- display: none;
+ /* display: none; */
  padding: 10px 15px;
  border-radius: 10%;
  order: -1;
