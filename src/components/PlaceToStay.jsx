@@ -11,6 +11,7 @@ export default function PlaceToStay(){
             <div className="top-content">
             <Navbar/>
             <div className="place-nav">
+            <div className="place-nav2">
                 <a>Resturant</a>
                 <a>Cottage</a>
                 <a>Castle</a>
@@ -19,7 +20,9 @@ export default function PlaceToStay(){
                 <a>Carbins</a>
                 <a>Off-grid</a>
                 <a>Farm</a>
+              </div>  
                 <a className="location-btn"><p>Location</p> <img src="./setting.svg"/></a>
+
             </div>
             </div>
 

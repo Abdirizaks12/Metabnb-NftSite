@@ -81,10 +81,16 @@ gap: 150px;
             display: flex;
             flex-direction: column;
             order: 1;
+            margin-right: -56px;
         }
     .connect-btn{
      
        }
+       .anchor{
+        color: #A02279;
+        text-decoration:none;
+           
+    }
     .menu{
          flex-direction: column;
          background: #FFFFFF;
@@ -104,7 +110,7 @@ gap: 150px;
         flex-direction: row;
         order: 1;
         height: 100%;
-        gap: 1px;
+    gap: 1PX;
         justify-content: center;
        
     }
