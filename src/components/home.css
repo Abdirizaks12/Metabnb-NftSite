@@ -22,9 +22,10 @@
 
 @media (max-width: 700px){
     .app{
-     margin: 0 auto;
+     
       height: 100%;
-      display: flex;
+     margin: 0 auto;
+     display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -32,4 +33,6 @@
 
 
     }
+    
+    
 }
