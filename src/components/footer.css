@@ -129,7 +129,7 @@ color: #F1F3F9;
 
 }
 
-@media(max-width:480px){
+@media(max-width:700px){
     .footer{
         flex-direction: column;
         width: 80%;
@@ -151,4 +151,3 @@ color: #F1F3F9;
         padding-top: 20px;
     }
 }
-@media(max-width:768)

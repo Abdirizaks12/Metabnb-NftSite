@@ -88,7 +88,7 @@ margin-top: 100px;
 margin-left: 100px;
     }
 
-    @media (max-width:480px){
+    @media (max-width:700px){
         .giftcard{
             
             display: flex;
@@ -101,3 +101,5 @@ margin-left: 100px;
            padding-bottom: 33px;
         }
     }
+
+    

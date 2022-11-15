@@ -6,16 +6,29 @@ import {Link} from "react-router-dom"
 export default function Navbar(){
     const[openModal,setOpenModal] = React.useState(false)
     const[toggleMenu , setToggleMenu]=React.useState(false)
+    const[screenWidth , setScreenWidth]= React.useState(window.innerWidth)
 
     const toggleNav = ()=>{
         setToggleMenu(!toggleMenu)
     }
     
+    React.useEffect (()=>{
+
+        const changeWidth = ()=>{
+            setScreenWidth(window.innerWidth)
+
+        }
+
+        window.addEventListener('resize' , changeWidth)
+        return ()=>{
+            window.removeEventListener('resize', changeWidth)
+        }
+    })
     return(
     <div className="navbar">
         <img src="./logo.png"/>
        <nav> 
-        { toggleMenu && (<ul className="menu">
+        { (toggleMenu || screenWidth > 1440) && (<ul className="menu">
             <Link >Home</Link>
             <Link to="./PlaceToStay">Place to stay</Link> 
             <a href="#">NFTs</a>
