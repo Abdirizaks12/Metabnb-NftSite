@@ -119,3 +119,23 @@ color: #FFFFFF;
 .left-img{
     padding-top: 100px;
 }
+
+
+@media   (max-width:480px){
+    .main-content{
+        margin-top: 00px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+      align-items: center;
+      padding: 0px;
+      gap: 0;
+      height: 100%;
+     
+}
+.top-content{margin-top: 10px;
+padding-top: 30px;
+
+}
+
+}

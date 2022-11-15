@@ -35,3 +35,13 @@ line-height: 60px;
 color: #000000;
 
 }
+ @media (max-width:480px){
+    .adventure{
+        width: 100%;
+        height: 100%;
+    }
+    .nft-images{
+        grid-template-columns:1fr 1fr;
+        height: 100%;
+    }
+ }

@@ -51,3 +51,45 @@ border: none;
 
 color: #FFFFFF;
 }
+.menu-btn{
+ background:blueviolet;
+ width:50px;
+ height:100;
+ /* display: none; */
+ padding: 10px 15px;
+ border-radius: 10%;
+ order: -1;
+ 
+}
+nav{display: flex;
+flex-direction: row;
+gap: 150px;
+}
+
+@media (max-width:480px){
+    .navbar{
+        width: 480px;
+        align-items: center;
+        margin: 0 auto;
+        gap: 30px;
+        }
+    .connect-btn{
+
+    }
+    .menu{
+         flex-direction: column;
+        
+        
+
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        height: 100%;
+        gap: 1px;
+    }
+    .menu-btn{
+        align-self: flex-end;
+    }
+}

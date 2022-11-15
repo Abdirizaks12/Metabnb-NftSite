@@ -128,3 +128,27 @@ align-items: center;
 color: #F1F3F9;
 
 }
+
+@media(max-width:480px){
+    .footer{
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        
+
+    }
+    .socials{
+        margin: 0 auto;
+        order: 1;
+    }
+    .footer-link{
+        flex-direction: column;
+        height: 100%;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding-top: 20px;
+    }ssssss
+}
+@media(max-width:768)
