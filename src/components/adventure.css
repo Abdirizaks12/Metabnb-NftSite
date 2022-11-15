@@ -19,7 +19,7 @@ background: #FFFFFF;
 }
 
 .header-note{
-width: 817px;
+/* width: 817px; */
 height: 60px;
 left: 313px;
 top: 39px;
@@ -37,12 +37,22 @@ color: #000000;
 }
  @media (max-width:700px){
     .adventure{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-note{
         width: 100%;
         height: 100%;
+        align-self: center;
+
     }
     .nft-images{
         grid-template-columns:1fr 1fr;
         height: 100%;
+       width: 100%;
         
         
     }
@@ -52,5 +62,6 @@ color: #000000;
     .nft-images{
         grid-template-columns:1fr;
         height: 100%;
+        
     }
  }

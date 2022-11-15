@@ -22,7 +22,7 @@
 .navbar>ul>a{
     text-decoration: none;
 }
-.navbar>ul>a:hover{
+.anchor:hover{
     color: aqua;
 }
 
@@ -52,32 +52,43 @@ border: none;
 color: #FFFFFF;
 }
 .menu-btn{
- background:blueviolet;
+ background:#A02279;
  width:50px;
  height:100;
- /* display: none; */
+ display: none;
  padding: 10px 15px;
  border-radius: 10%;
  order: -1;
  
 }
-nav{display: flex;
+nav{
+    display: flex;
 flex-direction: row;
 gap: 150px;
 }
 
-@media (max-width:480px){
+@media (max-width:700px){
     .navbar{
-        width: 480px;
+        width: 90%;
+        display: flex;
         align-items: center;
         margin: 0 auto;
-        gap: 30px;
+        gap: 0px;
+        
         }
     .connect-btn{
-
-    }
+     
+       }
     .menu{
          flex-direction: column;
+         background: #FFFFFF;
+         border-radius: 16px;
+         gap: 10px;
+         text-decoration: none;
+         cursor: pointer;
+         background: rgba(64, 64, 64, 0.3);
+         padding: 10px;
+         margin-top: 0px;
         
         
 
@@ -91,5 +102,6 @@ gap: 150px;
     }
     .menu-btn{
         align-self: flex-end;
+        display: block;
     }
 }

@@ -1,3 +1,13 @@
 .app-view{
     margin: 0 auto;
 }
+
+@media (max-width:700px){
+    .app-view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin: 0 auto ;
+
+    }
+}
