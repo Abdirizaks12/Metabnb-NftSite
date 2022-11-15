@@ -129,7 +129,7 @@ color: #FFFFFF;
     .main-content{
         display: flex;
         flex-direction: column-reverse;
-        
+        padding-top: 30px;
       /* align-items: center; */
       margin: 0 auto;
       gap: 0;

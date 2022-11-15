@@ -1,11 +1,11 @@
 .modal-wrap{
     
 width: 1440px;
-height: 4650px;
+height: 4950px;
 
 background: rgba(64, 64, 64, 0.3);
     
-   margin-left: -95px;
+   margin-left: -615px;
   position: fixed; 
   display: flex;
     justify-content: start;
