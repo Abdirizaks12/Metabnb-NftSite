@@ -24,13 +24,13 @@ background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
     gap: 99px;
     
     /* width: 1221px; */
-    height: 459px;
+    /* height: 459px; */
     /* top: 132px; */
 
 }
 .form-content>h2{
-    width: 646px;
-    
+    /* width: 646px; */
+ width: 83%;   
 height: 148px;
 
 font-family: 'Red Rose';
@@ -51,7 +51,8 @@ color: #434343;
     color:#A02279;
 }
 .form-content>p{
-    width: 636px;
+    /* width: 636px; */
+    width: 78%;
 height: 102px;
 
 font-family: 'Red Rose';
@@ -112,8 +113,9 @@ color: #FFFFFF;
 .side-img{
     display: flex;
     flex-direction: row;
-    height: 459px;
-    width: 476px;
+    /* height: 459px; */
+    /* width: 476px; */
+
     border-radius: 15px;
    
 
@@ -127,13 +129,49 @@ color: #FFFFFF;
     .main-content{
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-      align-items: center;
+        
+      /* align-items: center; */
       margin: 0 auto;
       gap: 0;
       height: 100%;
-      
-     
+      width: 100%;
+}
+.left-img{
+    padding-right: 7px;
+}
+.aside-img{
+    width:100%;
+
+}
+.side-img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-content{
+    width: 100%;
+    height: 100%;
+
+}
+.form-content>h2{
+    height: 100%;
+    margin: 0 auto;
+    font-weight: 700;
+font-size: 35px;
+line-height: 130%;
+
+}
+.form-content>p{
+    height: 100%;
+    margin: 0 auto;
+    
+
+}
+.form-email{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+
 }
 .top-content{
     margin-top: 10px;

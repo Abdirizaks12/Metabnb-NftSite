@@ -21,7 +21,7 @@ display: flex;
     margin-top: 10px;
 
     box-sizing: border-box;
-width: 260px;
+width: 260%;
 height: 265px;
 
 /* FADE */
@@ -65,4 +65,12 @@ color: #434343
 .stars{
     align-self: flex-start;
     margin-top: 9px;
+}
+
+@media (max-width:700px){
+    .card{
+       
+        
+    }
+    
 }

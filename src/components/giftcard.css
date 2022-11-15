@@ -98,12 +98,19 @@ margin-right: 30px;
             justify-content: center;
             height: 100%;
             width: 100%;
+            
 
         }
         .gift-content{
-            margin: 0;
-            padding: 30px;
+            margin: 0 ;
+            padding: 0 30px;
+            width: 90%;
+        
         }
+        .gift-content>h2{
+            
+        }
+        
           .gift-img{
             margin: 0px;
            

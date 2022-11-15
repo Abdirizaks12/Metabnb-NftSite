@@ -31,6 +31,7 @@ flex-direction: row;
     gap: 41px;
     margin-top: 25px;
     margin-bottom: 0px;
+    /* align-items: center; */
 }
 .tags>a{
     height: 18px;

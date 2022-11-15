@@ -39,9 +39,10 @@ color: #000000;
     .adventure{
         width: 80%;
         height: 100%;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; */
+        margin: 0 auto;
     }
     .header-note{
         width: 100%;

@@ -18,13 +18,13 @@ export default function TopContent(){
 
                 <div className="side-img">
                     <div className="left-img">
-                     <img src="./image 4.png"/>
-                     <img src="./image 6.png"/>
+                     <img className="aside-img" src="./image 4.png"/>
+                     <img className="aside-img"src="./image 6.png"/>
                      </div>
 
                     <div className="right-img">
-                     <img src="./image 3.png"/>
-                     <img src="./image 5.png"/>
+                     <img className="aside-img" src="./image 3.png"/>
+                     <img className="aside-img" src="./image 5.png"/>
                      </div>
                 </div>
 
