@@ -10,7 +10,7 @@ export default function Giftcard(){
             </div>
 
             <div className="gift-img">
-               <img className="gift-nft-img" src="./giftcards.png"/> 
+               <img className="gift-nft-img" alt="Image of various places in the metaverse" src="./giftcards.png"/> 
             </div>
         </div>
     )
