@@ -30,7 +30,7 @@ export default function Navbar(){
         
         <div className="toggle-nav">
         { (toggleMenu || screenWidth > 700) && (<ul className="menu">
-            <Link className="anchor">Home</Link>
+            <Link className="anchor" to="/">Home</Link>
             <Link className="anchor" to="./PlaceToStay">Place to stay</Link> 
             <a className="anchor" href="#">NFTs</a>
             <a className="anchor" href="#">Community</a>
