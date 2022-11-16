@@ -1,8 +1,8 @@
 .footer{
-    width: 1440px;
+    width: 100%;
 height: 322px;
 
-
+margin: 0 auto;
 background: #1D1D1E;
 display: flex;
 flex-direction: row;
@@ -136,6 +136,8 @@ color: #F1F3F9;
         flex-direction: column;
         width: 100%;
         height: 100%;
+        margin: 0 auto;
+        justify-content: center;
     
         
 

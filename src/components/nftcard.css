@@ -2,6 +2,8 @@
     box-sizing: border-box;
 width: 292px;
 height: 372px;
+/* width: 100%;
+height: 100%; */
 
 
 /* White lin */
@@ -21,8 +23,10 @@ display: flex;
     margin-top: 10px;
 
     box-sizing: border-box;
-width: 260%;
-height: 265px;
+/* width: 260px;
+height: 265px; */
+width: 90%;
+height: 85%;
 
 /* FADE */
 
@@ -35,8 +39,9 @@ border-radius: 15px;
 .card-info{
     display: flex;
     flex-direction: column;
-    width: 260px;
-    margin: 0px;
+    /* width: 260px;
+    margin: 0px; */
+    width: 90%;
 
 }
 .detail{
@@ -65,12 +70,18 @@ color: #434343
 .stars{
     align-self: flex-start;
     margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 @media (max-width:700px){
     .card{
-       
-        
-    }
+        width: 80%;
+        height: 100%; 
+        gap: 10px; 
     
+    
+}
+.stars{
+    margin-bottom: 9px;
+}
 }

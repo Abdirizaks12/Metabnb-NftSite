@@ -115,10 +115,10 @@ color: #FFFFFF;
     flex-direction: row;
     /* height: 459px; */
     /* width: 476px; */
-   width: 100%;
+   width: 35%;
     border-radius: 15px;
    
-
+   gap: 10px;
 }
 .left-img{
     padding-top: 100px;

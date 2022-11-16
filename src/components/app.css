@@ -1,13 +1,21 @@
+*{
+  font-family: 'Red Rose', cursive;
+
+}
 .app-view{
     margin: 0 auto;
+    max-width: 1440px;
+  
 }
 
 @media (max-width:700px){
     .app-view{
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-  margin: 0 auto ;
+    justify-content: center; */
+    width: 100%;
+    margin: 0 auto ;
+    
 
     }
 }
