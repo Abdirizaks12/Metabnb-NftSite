@@ -35,7 +35,7 @@ flex-direction: row;
 }
 .tags>a{
     height: 18px;
-width: 18px;
+/* width: 18px; */
 
 top: 0px;
 border-radius: 0px;
