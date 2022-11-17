@@ -10,7 +10,7 @@ import Footer from './Footer'
 
 function Homepage() {
 return(
-  // <div className='main-app'>
+  <div className='main-app'>
   <div className='app'>
     <TopContent/>
     <Partners/>
@@ -18,7 +18,7 @@ return(
     <Giftcard/>
     <Footer/>
    
-  {/* </div> */}
+  </div>
  </div> 
 )
 
