@@ -70,14 +70,14 @@ flex-direction: column;
 
 @media (max-width:700px){
     .navbar{
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0 auto;
         gap: 10px;
         justify-content: space-between;
-     margin-left:20px;
+     /* margin-left:20px; */
         }
         .toggle-nav{
             display: flex;
@@ -90,6 +90,9 @@ flex-direction: column;
     .connect-btn{
      margin: 0;
     order: 0;
+    align-self: flex-end;
+    margin-top: -39px;
+    padding: 10px 13px;
     
        }
        .anchor{
@@ -103,6 +106,10 @@ flex-direction: column;
         text-decoration:none;
         
            
+    }
+    .navbar>img{
+        width: 40%;
+        align-self: flex-start;
     }
     
     .menu{
