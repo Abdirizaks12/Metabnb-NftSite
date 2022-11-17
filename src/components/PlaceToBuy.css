@@ -1,5 +1,5 @@
 .places-page{
-width: 100%;
+width: 95%;
 
 height: 100%;
 padding-top: 51pxx;
@@ -9,6 +9,8 @@ gap: 100px;
 background: #FFFFFF;
 display: flex;
 flex-direction: column;
+
+
 
 }
 .top-content{

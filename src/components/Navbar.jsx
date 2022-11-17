@@ -26,7 +26,7 @@ export default function Navbar(){
     })
     return(
     <div className="navbar">
-        <img className="logo-bnb" src="./logo.png"/>
+        <img className="logo-bnb" src="./logo.svg"/>
         
         <div className="toggle-nav">
         {/* { (toggleMenu || screenWidth > 700) &&  */}
