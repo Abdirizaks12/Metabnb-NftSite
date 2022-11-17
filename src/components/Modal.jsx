@@ -12,15 +12,17 @@ export default function Modal({closeModal}){
                  <div className="line"></div>
                 <div className="bottom-modal">
                     <p>Choose your preferred wallet:</p>
+                 <div className="bottom-wallets">
                     <a  href="#" className="wallets">
-                        <img src="./matamaskwallet.svg"/>
+                        <img className="rt-img" src="./matamaskwallet.svg"/>
                         <img src="./arrow.svg"/>  
                     </a>
 
                     <a href="#" className="wallets">
-                        <img src="./walletconnect.svg"/>
+                        <img className="rt-img" src="./walletconnect.svg"/>
                         <img src="./arrow.svg"/>
                     </a>
+                 </div> 
                 </div>
             </div>
         </div>
